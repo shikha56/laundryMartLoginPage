@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #2b95f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+.container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.left{
+    flex: 1;
+    background-color: #2b95f1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 6rem;
+    position: relative;
+}
+
+.right{
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+    background-color: #f2f7fd;
+}
+
+.form-container {
+    width: 100%;
+    max-width: 400px;
+}
+
+.form-header {
+    margin-bottom: 2.5rem;
+    text-align: center;
+}
+
+.form-header h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 0.5rem;
+}
+
+.form-header p {
+    color: #6b7280;
+    font-size: 0.95rem;
+}
+
+.input-group {
+    margin-bottom: 1.5rem;
+}
+
+.input-group label {
+    display: block;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #374151;
+    margin-bottom: 0.5rem;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    border: 1px solid #d1d5db;
+    border-color: transparent;
+    border-radius: 0.5rem;
+    outline: none;
+    transition: all 0.2s ease;
+}
+
+.input-group input:focus {
+    border-color: #4f46e5;
+    box-shadow: 0 0 0 4px rgba(79, 70, 229, 0.1);
+}
+
+.input-group input::placeholder{
+    color: lightgray;
+    opacity: 1;
+}
+
+h5 {
+    font-size: 0.815rem;
+    color: #000;
+    text-decoration: none;
+    font-weight: 500;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    margin-top: 7px;
+}
+
+/* h5:hover {
+    text-decoration: underline;
+} */
+
+.login-btn{
+    width: 100%;
+    padding: 0.85rem;
+    background-color: #2b95f1;
+    color: #ffffff;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.register-prompt{
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 0.925rem;
+    color: #6b7280;
+}
+
+.register-prompt a {
+    color:#2b95f1;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register-prompt a:hover {
+    text-decoration: underline;
+}
+
+sup{
+    color: red;
+}

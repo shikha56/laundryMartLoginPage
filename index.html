@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laundry Mart Login Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <img src="laundry.png" alt="laundry-mart">
+        </div>
+
+        <div class="right">
+            <div class="form-container">
+                <div class="form-header">
+                    <h2>Hello Again!</h2>
+                    <p>Welcome back! we missed you!</p>
+                </div>
+
+                <form action="">
+                    <div class="input-group">
+                        <label for="email">Email<sup>*</sup></label>
+                        <input 
+                            id="email" 
+                            type="email" 
+                            value=""
+                            name="email"
+                            pattern=".+@site\.com" 
+                            required 
+                            placeholder="Emailid@site.com"/>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="password">Password<sup>*</sup></label>
+                        <input 
+                            id="password" 
+                            type="password" 
+                            value=""
+                            name="password"
+                            required 
+                            placeholder="Password"/>
+
+                        <h5>Forgot Password</h5> 
+                    </div>
+
+                    <!-- <h5>Forgot Password</h5>  -->
+            
+                    <button type="submit" class="login-btn">Login</button> 
+
+                </form>
+                <div class="register-prompt">
+                    <p>Not a member? <a href="#">Register Now</a></p>
+                </div>  
+            </div>         
+        </div>
+    </div>
+</body>
+</html>
